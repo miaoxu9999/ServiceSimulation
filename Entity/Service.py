@@ -1,4 +1,7 @@
 # Service类的模拟
+
+# 修改2018年1月29日21:33:45
+# 将本类映射到
 from time import ctime
 class Service:
     count = 0

@@ -3,6 +3,7 @@
 # @Site    : 
 # @File    : ServiceAddStragety.py
 # @Software: PyCharm Community Edition
-class ServiceAddStragety():
-    def __init__(self):
-        pass
+from . import MoveInStragety
+class ServiceAddStragety(MoveInStragety):
+    def __init__(self, numTagMap, interval, time, reputationStragety):
+        super(ServiceAddStragety, self).__init__(numTagMap, interval, time, reputationStragety)

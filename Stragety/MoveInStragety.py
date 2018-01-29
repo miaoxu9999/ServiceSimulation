@@ -4,7 +4,7 @@
 # @File    : ServiceMoveIn.py
 # @Software: PyCharm Community Edition
 from Stragety.MoveInStragety import MoveInStragety
-class MoveInStragety():
+class MoveInStragety(object):
     def __init__(self, numTagMap, interval, time, reputationStragety):
         self.numTagMap = numTagMap
         self.interval = interval
